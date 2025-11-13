@@ -1,7 +1,9 @@
 ### Transmission and Reception
 
+#### 1. Purpose
 Handles TX/RX of the radar signal. Antennas and layout must ensure clean transmission, isolation, and consistent returns.
 
+#### 2. Requirements
 - **Band:** 2.4–2.4835 GHz ISM.  
 - **Antenna options (TX/RX):**  
   - **Yagi:** ~25–40° beamwidth, 7–10 dBi gain, compact and well-balanced.  
@@ -12,3 +14,11 @@ Handles TX/RX of the radar signal. Antennas and layout must ensure clean transmi
 - **Detectability:** Returns detectable at up to 10 m on standard targets.  
 - **Impedance:** 50 Ω throughout; short runs, proper shielding between TX and RX.  
 - **Mounting:** Antennas co-rotate; aligned to rotation axis and same polarisation.  
+
+#### 3. Functional Overview / Data Flow
+![Tx Rx block diagram](images/Transmit_receive_data_flow.png)
+
+#### 5. Specifications
+- Antenna: 
+
+#### 8. References
